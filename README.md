@@ -1,4 +1,4 @@
-# @SatsMobiBot
+# @VentunoTipBot
 
 A Telegram Lightning ⚡️ Bitcoin wallet.
 
@@ -21,7 +21,7 @@ First, create a new Telegram bot by starting a conversation with the [@BotFather
 
 #### Set up LNbits
 
-Thanks to my friend Calle
+Thanks to my friend Massimo Musumeci
 
 ## Made with
 
