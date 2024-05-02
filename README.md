@@ -2,7 +2,7 @@
 
 A Telegram Lightning ⚡️ Bitcoin wallet.
 
-This repository contains everything you need to set up and run your own Tip bot and POS facility. If you simply want to use this bot in your group chat without having to install anything just start a conversation with [@SatsMobiBot](https://t.me/SatsMobiBot) and invite it into your group chat.
+This repository contains everything you need to set up and run your own Tip bot and POS facility. If you simply want to use this bot in your group chat without having to install anything just start a conversation with [@VentunoTipBot](https://t.me/VentunoTipBot) and invite it into your group chat.
 
 The system automatically creates a POS facility connected to your user. Getting payments in Lightning is immediate and requires no additional software installed and no externa APPs.
 
@@ -43,8 +43,3 @@ This is a Lightning Wallet into a Telegram Bot, but more functionalities have be
 - Scrub service for forwarding all incoming payments to an external address, making the POS actually not custodial if activated
 
 You can give the use of this Bot to your community. For example a physical shop manager can use this Bot + the NFC Cards + POS facility, all together. They can give the cards to their clients and send cashback for each purchase, thanks to the cashback command. The client will be able to spend the money just using his card everywhere.
-
-## Subprojects using it:
-
-- [sats.mobi](https://www.satsmobi.com)
-- [NEPAY](https://www.nepay.ch)
