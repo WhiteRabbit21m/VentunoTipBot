@@ -28,7 +28,7 @@ func New(b *telegram.TipBot) Service {
 }
 
 // const botImage = "https://avatars.githubusercontent.com/u/88730856?v=7"
-const botImage = "https://github.com/massmux/SatsMobiBot/blob/b3c74ce4609430bdfab0cda61ead645b25b9c68e/resources/satsmobibot-logo.png?raw=true"
+const botImage = "https://github.com/WhiteRabbit21m/VentunoTipBot/blob/eb36f261fda34ce0ba182f74b0a2013512331279/resources/satsmobibot-logo.png?raw=true"
 
 //go:embed static
 var templates embed.FS
@@ -69,7 +69,7 @@ func (s Service) getTelegramUserPictureURL(username string) (string, error) {
 }
 
 func (s Service) UserPageHandler(w http.ResponseWriter, r *http.Request) {
-	// https://sats.mobi/@<username>
+	// https://21m.tips/@<username>
 	username := strings.ToLower(mux.Vars(r)["username"])
 	callback := fmt.Sprintf("%s/.well-known/lnurlp/%s", internal.Configuration.Bot.LNURLHostName, username)
 	botName := internal.Configuration.Bot.Name
@@ -98,7 +98,7 @@ func (s Service) UserPageHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func (s Service) UserWebAppHandler(w http.ResponseWriter, r *http.Request) {
-	// https://sats.mobi/app/<username>
+	// https://21m.tips/app/<username>
 	username := strings.ToLower(mux.Vars(r)["username"])
 	callback := fmt.Sprintf("%s/.well-known/lnurlp/%s", internal.Configuration.Bot.LNURLHostName, username)
 	botName := internal.Configuration.Bot.Name
