@@ -63,7 +63,7 @@ payButtonEmoji = """💸"""
 
 # HELP
 
-helpMessage = """⚡️ *SatsMobi*
+helpMessage = """⚡️ *VentunoTip*
 _This is a Bitcoin Lightning Wallet that can send and receive tips on Telegram and manage NFC Cards. Nostr enabled.
  Maximum amount allowed is 1M Sats. Hit /basics for more info._
 
@@ -72,7 +72,7 @@ _This is a Bitcoin Lightning Wallet that can send and receive tips on Telegram a
 ⚙️ *Commands*
 */tip*: Reply to a message to tip: `/tip <amount> [<memo>]`
 */balance*: Check your balance: `/balance`
-*/send*: Send funds to a user: `/send <amount> @user or user@sats.mobi [<memo>]`
+*/send*: Send funds to a user: `/send <amount> @user or user@21m.tips [<memo>]`
 */invoice*: Receive with Lightning: `/invoice <amount> [<memo>]`
 */pay*: Pay with Lightning: `/pay <invoice>`
 */cashback*: QRCODE for receiving cashback.
@@ -183,11 +183,11 @@ confirmSendMessage         = """Do you want to pay to %s?\n\n💸 Amount: %d sat
 confirmSendAppendMemo      = """\n✉️ %s"""
 sendCancelledMessage       = """🚫 Send cancelled."""
 errorTryLaterMessage       = """🚫 Error. Please try again later."""
-sendSyntaxErrorMessage     = """Did you enter an amount and a recipient? You can use the /send command to either send to Telegram users like %s or to a Lightning address like USERNAME@sats.mobi ."""
+sendSyntaxErrorMessage     = """Did you enter an amount and a recipient? You can use the /send command to either send to Telegram users like %s or to a Lightning address like USERNAME@21m.tips ."""
 sendHelpText               = """📖 Oops, that didn't work. %s
 
 *Usage:* `/send <amount> <user> [<memo>]`
-*Example:* `/send 1000 @SatsMobiBot I just like the bot ❤️`
+*Example:* `/send 1000 @VentunoTipBot I just like the bot ❤️`
 """
 
 # INVOICE
