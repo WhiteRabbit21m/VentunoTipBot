@@ -1,10 +1,10 @@
 [Unit]
-Description=satsmobi
+Description=VentunoTipBot
 
 [Service]
 User=dev
-WorkingDirectory=/home/dev/SatsMobiBot
-ExecStart=/home/dev/SatsMobiBot/LightningTipBot
+WorkingDirectory=/home/dev/VentunoTipBot
+ExecStart=/home/dev/VentunoTipBot/LightningTipBot
 Restart=always
 RestartSec=3
 
