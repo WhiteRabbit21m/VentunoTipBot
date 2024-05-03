@@ -187,7 +187,7 @@ sendSyntaxErrorMessage     = """Did you enter an amount and a recipient? You can
 sendHelpText               = """📖 Oops, that didn't work. %s
 
 *Usage:* `/send <amount> <user> [<memo>]`
-*Example:* `/send 1000 @VentunoTipBot I just like the bot ❤️`
+*Example:* `/send 1000 VentunoTipBot@21m.tips I just like the bot ❤️`
 """
 
 # INVOICE
@@ -271,8 +271,8 @@ donateEnterAmountMessage = """Did you enter an amount?"""
 donateValidAmountMessage = """Did you enter a valid amount?"""
 donateHelpText           = """📖 Oops, that didn't work. %s
 
-*Usage:* `/send <amount> 0x8859a71ff4569543@21m.tips`
-*Example:* `/send 1000 0x8859a71ff4569543@21m.tips`"""
+*Usage:* `/send <amount> 0xad37bf19a5ce9f89@21m.tips`
+*Example:* `/send 1000 0xad37bf19a5ce9f89@21m.tips`"""
 
 # PHOTO
 
