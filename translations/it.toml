@@ -59,7 +59,7 @@ infoButtonMessage = """Info"""
 
 # HELP
 
-helpMessage = """⚡️ *SatsMobi*
+helpMessage = """⚡️ *VentunoTipBot*
 _Questo è un Wallet Bitcoin Lightning con cui puoi inviare tip via Telegram e gestire le carte NFC.
  Abilitato per Nostr. L'importo massimo consentito è di 1M Sats. Digita /basics per maggiori informazioni._
 
@@ -68,7 +68,7 @@ _Questo è un Wallet Bitcoin Lightning con cui puoi inviare tip via Telegram e g
 ⚙️ *Comandi*
 */tip*: Rispondi così a un messaggio per inviare una mancia: `/tip <ammontare> [<memo>]`
 */balance*: Verifica il tuo saldo residuo: `/balance`
-*/send*: Invia fondi a un utente: `/send <ammontare> @utente o utente@sats.mobi [<memo>]`
+*/send*: Invia fondi a un utente: `/send <ammontare> @utente o utente@21m.tips [<memo>]`
 */invoice*: Ricevi attraverso Lightning: `/invoice <ammontare> [<memo>]`
 */pay*: Paga attraverso Lightning: `/pay <invoice>`
 */cashback*: QRCODE per ricevere cashback.
@@ -178,11 +178,11 @@ confirmSendMessage         = """Vuoi inviare un pagamento a %s?\n\n💸 Ammontar
 confirmSendAppendMemo      = """\n✉️ %s"""
 sendCancelledMessage       = """🚫 Invio cancellato."""
 errorTryLaterMessage       = """🚫 Errore. Per favore riprova più tardi."""
-sendSyntaxErrorMessage     = """Hai specificato un ammontare e un destinatario? Puoi usare il comando /send per inviare sia a utenti Telegram come %s sia a un indirizzo Lightning del tipo USERNAME@sats.mobi ."""
+sendSyntaxErrorMessage     = """Hai specificato un ammontare e un destinatario? Puoi usare il comando /send per inviare sia a utenti Telegram come %s sia a un indirizzo Lightning del tipo USERNAME@21m.tips ."""
 sendHelpText               = """📖 Ops, non ha funzionato. %s
 
 *Sintassi:* `/send <ammontare> <utente> [<memo>]`
-*Esempio:* `/send 1000 @SatsMobiBot Amo questo bot ❤️`
+*Esempio:* `/send 1000 @VentunoTipBot Amo questo bot ❤️`
 """
 
 # INVOICE
@@ -266,8 +266,8 @@ donateEnterAmountMessage = """Hai inserito un ammontare?"""
 donateValidAmountMessage = """Hai inserito un ammontare valido?"""
 donateHelpText           = """📖 Ops, non ha funzionato. %s
 
-*Sintassi:* `/send 1000 0x8859a71ff4569543@sats.mobi`
-*Esempio:* `/send 1000 0x8859a71ff4569543@sats.mobi`"""
+*Sintassi:* `/send 1000 0x8859a71ff4569543@21m.tips`
+*Esempio:* `/send 1000 0x8859a71ff4569543@21m.tips`"""
 
 # PHOTO
 
