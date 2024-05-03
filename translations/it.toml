@@ -182,7 +182,7 @@ sendSyntaxErrorMessage     = """Hai specificato un ammontare e un destinatario? 
 sendHelpText               = """📖 Ops, non ha funzionato. %s
 
 *Sintassi:* `/send <ammontare> <utente> [<memo>]`
-*Esempio:* `/send 1000 @VentunoTipBot Amo questo bot ❤️`
+*Esempio:* `/send 1000 VentunoTipBot@21m.tips Amo questo bot ❤️`
 """
 
 # INVOICE
@@ -266,8 +266,8 @@ donateEnterAmountMessage = """Hai inserito un ammontare?"""
 donateValidAmountMessage = """Hai inserito un ammontare valido?"""
 donateHelpText           = """📖 Ops, non ha funzionato. %s
 
-*Sintassi:* `/send 1000 0x8859a71ff4569543@21m.tips`
-*Esempio:* `/send 1000 0x8859a71ff4569543@21m.tips`"""
+*Sintassi:* `/send 1000 0xad37bf19a5ce9f89@21m.tips`
+*Esempio:* `/send 1000 0xad37bf19a5ce9f89@21m.tips`"""
 
 # PHOTO
 
