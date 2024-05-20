@@ -19,7 +19,7 @@ import (
 )
 
 // const queryImage = "https://avatars.githubusercontent.com/u/88730856?v=7"
-const queryImage = "https://github.com/WhiteRabbit21m/VentunoTipBot/blob/06d9dafce653ddd195240c29902c09793fb1a445/resources/twentyone-logo.png?raw=true"
+const queryImage = "https://github.com/WhiteRabbit21m/VentunoTipBot/blob/1c54144a60642fc2be7e1767fe7b17d750b7f886/resources/whale_dark_bot.png?raw=true"
 
 func (bot TipBot) inlineQueryInstructions(ctx intercept.Context) (intercept.Context, error) {
 	instructions := []struct {
