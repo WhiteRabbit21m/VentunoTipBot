@@ -12,6 +12,7 @@ bot:
   admin_api_host: localhost:6060
   username: "@VentunoTipBot"
   name: "21m.tips"
+  botadmin: "SatsRouting"
 telegram:
   message_dispose_duration: 10
   api_key: "1234"
@@ -37,3 +38,9 @@ nostr:
 pos:
  currency: "EUR"
  max_balance: 1000000
+voucherbot:
+  endpoint: "api.gwoq.com"
+  api_key: "XXXX"
+  purchase_type: "LA-B"
+  default_amount: "100"
+  currency: "EUR"
